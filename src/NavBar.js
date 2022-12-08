@@ -22,7 +22,7 @@ export default function NavBar() {
 // purple: sx={{color: "#9c27b0"}}
     <AppBar sx={{display: "flex", backgroundColor: "#f6ecf5", height: "80px"}}>
         <Box sx={{display: "flex", justifyContent: 'space-between', margin: "10px 30px", alignItems: "center", height: "100%"}}>
-            <Typography sx={{fontWeight: 500, fontSize: "30px"}} color="secondary">My Name Here</Typography>
+            <Typography sx={{fontWeight: 500, fontSize: "30px"}} color="secondary">excited elephant</Typography>
             <Box>
                 <Button color="secondary" sx={{fontSize: "20px", marginRight: "25px"}} href="/">About</Button>
                 <Button color="secondary" sx={{fontSize: "20px"}}
