@@ -6,7 +6,7 @@ import NavBar from './NavBar';
 export default function About() {
     return (
         <Box>
-            <NavBar/>
+            <NavBar bgColor="#f6ecf5" textColor="secondary"/>
             <Box sx={{height: "120px"}}></Box>
             <Box sx={{padding: "30px"}}>
                 <Box sx={{height: "80px"}}></Box>
