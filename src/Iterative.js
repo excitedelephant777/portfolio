@@ -1,5 +1,4 @@
 import * as React from 'react';
-import FigmaEmbed from 'react-figma-embed';
 import { Typography, Box } from '@mui/material';
 import NavBar from './NavBar';
 import apps from './iterative-photos/developer_apps.png';
@@ -29,7 +28,7 @@ export default function Iterative() {
                 <Typography variant="body1">A hi-fi prototype builds on the lo-fi prototype to be a full mockup of the application, which is useful for accurate user testing and so that developers are clear on what they are expected to build.
                 This prototype is the final product after a round of peer critique and a round of user testing, where strangers performed actions typical of a user--logging in, viewing statistics, etc.--and reported their experience. Most critiques were relatively minor and easy to fix (mostly involving changes in wording). </Typography>
                 <Box sx={{display: "flex", justifyContent: "center", padding: "30px"}}>
-                    <FigmaEmbed url="https://www.figma.com/proto/MMR5T4P3jWsVmJYMEHVy8c/1Flow?node-id=128%3A29&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=10%3A2"/>
+                    <iframe title="figma embed" sx={{border: "1px solid rgba(0, 0, 0, 0.1)"}} width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FMMR5T4P3jWsVmJYMEHVy8c%2F1Flow%3Fnode-id%3D10%253A2%26starting-point-node-id%3D10%253A2%26scaling%3Dscale-down-width" allowFullScreen></iframe>
                 </Box>
             </Box>
             <Box sx={{paddingBottom: "30px"}}>
