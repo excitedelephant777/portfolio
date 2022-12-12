@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d3463cec.css",
-    "main.js": "/portfolio/static/js/main.7f1be7ea.js",
+    "main.js": "/portfolio/static/js/main.1f097abc.js",
     "static/media/jig.jpeg": "/portfolio/static/media/jig.0b19f609d526e40c2ad5.jpeg",
     "static/media/wiring.jpeg": "/portfolio/static/media/wiring.b6ed95b441db89d7f4e4.jpeg",
     "static/media/sketch.png": "/portfolio/static/media/sketch.26cebfb3e7b8f5bfc446.png",
@@ -49,10 +49,10 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/portfolio/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/portfolio/index.html",
     "main.d3463cec.css.map": "/portfolio/static/css/main.d3463cec.css.map",
-    "main.7f1be7ea.js.map": "/portfolio/static/js/main.7f1be7ea.js.map"
+    "main.1f097abc.js.map": "/portfolio/static/js/main.1f097abc.js.map"
   },
   "entrypoints": [
     "static/css/main.d3463cec.css",
-    "static/js/main.7f1be7ea.js"
+    "static/js/main.1f097abc.js"
   ]
 }
