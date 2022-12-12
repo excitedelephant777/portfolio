@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { MenuItem, Link, Menu, Button, Typography, Box, AppBar } from '@mui/material';
+import { MenuItem, Menu, Button, Typography, Box, AppBar } from '@mui/material';
+import { Link } from "react-router-dom";
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
@@ -36,9 +37,9 @@ export default function NavBar() {
                     anchorEl={anchorEl}
                     open={open}
                     onClose={handleClose}
-                >
+                >   
                     {projects.map((project) =>
-                        <MenuItem key={project} onClick={handleClose} component={Link} href={urls[project]}>
+                        <MenuItem key={project} onClick={handleClose} component={Link} to={urls[project]}>
                             <Typography textAlign="center">{project}</Typography>
                         </MenuItem>
                     )}
