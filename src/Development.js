@@ -18,10 +18,6 @@ export default function Development() {
                         <Typography variant="h5" color="#E72B48" sx={{paddingRight: "10px"}}>Application Link:</Typography>
                         <Link href="https://excitedelephant777.github.io/uiux-project-4/" target="_blank">https://excitedelephant777.github.io/uiux-project-4/</Link>
                     </Box>
-                    <Box sx={{display: "flex", alignItems: "center"}}>
-                        <Typography variant="h5" color="#E72B48" sx={{paddingRight: "10px"}}>Repository Link:</Typography>
-                        <Link href="https://github.com/excitedelephant777/uiux-project-4" target="_blank">https://github.com/excitedelephant777/uiux-project-4</Link>
-                    </Box>
                 </Box>
             <Box sx={{paddingBottom: "30px"}}>
                <Typography variant="h5" color="#E72B48">Code Description</Typography>
